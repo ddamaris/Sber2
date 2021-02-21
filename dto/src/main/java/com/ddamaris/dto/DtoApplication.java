@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
@@ -17,7 +18,7 @@ public class DtoApplication {
 
     @Bean
     @LoadBalanced
-    public RestTemplate getRest(){
+    public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
 
