@@ -1,0 +1,16 @@
+GET http://localhost:8086/user/3
+
+###
+
+GET http://localhost:8086/user/1
+
+<> 2021-02-22T122254.200.json
+
+###
+
+GET http://localhost:8085/getuser/2
+
+<> 2021-02-22T122246.200.json
+
+###
+
